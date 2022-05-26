@@ -58,7 +58,7 @@ The hyperparameters of Phase 0, Phase 1, and Phase 2 are saved in `conly.conf` (
 | continue_evaluation | to continue the aborted evaluation | `False` |
 | eval_at_start | to conduct evaluation at the start of training | `False` |
 
-## restore ckpt
+### restore ckpt
 | name | description | default value |
 | ---- | ---- | ---- |
 | loads_best_ckpt | to load the best checkpoint in the model dir | `False` |
