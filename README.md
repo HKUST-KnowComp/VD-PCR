@@ -110,7 +110,6 @@ wget https://s3.amazonaws.com/visdial-bert/checkpoints/bestmodel_no_dense_finetu
 #### Phase 1: Joint training for VD-PCR
 
 Evaluating on VisDial val set with the MB-JC model
-+ Run command
 ```
 GPU=0,1,2,3,4,5,6 python main.py --model joint/MB-JC --mode eval
 ```
@@ -146,7 +145,6 @@ Pronoun_Coref_average_f1:       0.8776
 
 Inferencing on VisDial test set with the MB-JC-HP model
 
-+ Run command
 ```
 GPU=0,1,2,3,4,5,6 python main.py --model vonly/MB-JC-HP-crf_cap-test --mode predict
 python ensemble.py --exp convert --mode predict
