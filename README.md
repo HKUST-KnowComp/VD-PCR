@@ -2,7 +2,8 @@
 
 PyTorch implementation for the paper:
 
-**[VD-PCR: Improving visual dialog with pronoun coreference resolution](https://doi.org/10.1016/j.patcog.2022.108540)**  [arxiv](https://arxiv.org/abs/2205.14693)
+**[VD-PCR: Improving visual dialog with pronoun coreference resolution](https://doi.org/10.1016/j.patcog.2022.108540)**  [[arxiv](https://arxiv.org/abs/2205.14693)]
+
 Xintong Yu, Hongming Zhang, Ruixin Hong, Yangqiu Song, Changshui Zhang 
 
 The visual dialog task requires an AI agent to interact with humans in multi-round dialogs based on a visual environment. As a common linguistic phenomenon, pronouns are often used in dialogs to improve the communication efficiency. As a result, resolving pronouns (i.e., grounding pronouns to the noun phrases they refer to) is an essential step towards understanding dialogs. In this paper, we propose VD-PCR, a novel framework to improve Visual Dialog understanding with Pronoun Coreference Resolution in both implicit and explicit ways. First, to implicitly help models understand pronouns, we design novel methods to perform the joint training of the pronoun coreference resolution and visual dialog tasks. Second, after observing that the coreference relationship of pronouns and their referents indicates the relevance between dialog rounds, we propose to explicitly prune the irrelevant history rounds in visual dialog models' input. With pruned input, the models can focus on relevant dialog history and ignore the distraction in the irrelevant one. With the proposed implicit and explicit methods, VD-PCR achieves state-of-the-art experimental results on the VisDial dataset.
