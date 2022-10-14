@@ -43,6 +43,8 @@ def is_answer(sent_id):
 
 if __name__ == "__main__":
     args = parser.parse_args()
+    if not os.path.exists(args.save_dir):
+        os.makedirs(args.save_dir)
     
     for split in args.split:
         # load data
